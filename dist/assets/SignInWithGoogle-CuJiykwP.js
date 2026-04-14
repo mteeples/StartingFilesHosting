@@ -1,0 +1,1 @@
+import{t as e}from"./supabase-2G-SS2sX.js";var t=async()=>(await e.auth.signInWithOAuth({provider:`google`}),null);export{t as loader};
