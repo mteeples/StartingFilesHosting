@@ -23,7 +23,7 @@ export const VideosProvider = ({ children }) => {
     data: videos,
     loading,
     error,
-  } = useBackendSync(`http://localhost:3000/videos`);
+  } = useBackendSync(`https://slackclonebackendapi.onrender.com/videos`);
   // Track the current video
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
